@@ -1,0 +1,3 @@
+1) make template with links to all charts
+2) add template url parameter = header (chart_setup.html)
+3) form processing for chart_setup template and view

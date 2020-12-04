@@ -94,3 +94,20 @@ def nov_week_01(request):
               }
 
     return render(request, 'chart_app/chart.html', context)
+
+
+def chart_setup(request):
+    header = "chart setup"
+    context = {
+                 "header": header,
+                }
+    return render(request, 'chart_app/chart_setup.html', context)
+
+
+def chart_custom(request, header={}):
+    header = header
+
+    context = {
+                 "header": header,
+                }
+    return render(request, 'chart_app/chart_setup.html', context)

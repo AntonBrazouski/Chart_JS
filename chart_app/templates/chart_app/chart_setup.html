@@ -1,0 +1,16 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Chart Setup</title>
+  </head>
+  <body>
+    <form class="" action= "{% url 'chart_custom'  %}" method="post">
+       {% csrf_token %}
+
+      <input type="submit" name="submit" value="submit">
+    </form>
+
+  </body>
+</html>
