@@ -1,2 +1,2 @@
 # Chart_JS
-Using Chart.js library with Django 
+**Project** - using Chart.js library with Django 
